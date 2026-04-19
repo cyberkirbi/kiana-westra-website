@@ -335,12 +335,13 @@ h3 {
   border: 1px solid var(--line);
   border-radius: 20px;
   box-shadow: 0 12px 30px rgba(16, 24, 40, 0.05);
+  aspect-ratio: 16 / 9;
 }
 
 .video-frame iframe {
   display: block;
   width: 100%;
-  min-height: 340px;
+  height: 100%;
   border: 0;
 }
 
@@ -419,7 +420,7 @@ h3 {
     padding-top: 30px;
   }
 
-  .video-frame iframe {
-    min-height: 220px;
+  .video-frame {
+    aspect-ratio: 16 / 9;
   }
 }
