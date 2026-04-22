@@ -144,14 +144,20 @@
         <div class="cards">
           <article class="info-card review-card">
             <div class="review-meta">
-              <h3>Eduardo</h3>
+              <div class="review-header">
+                <h3>Rodrigo</h3>
+                <p class="review-stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+              </div>
               <p>March 5, 2026</p>
             </div>
             <p>The classes are very good.</p>
           </article>
           <article class="info-card review-card">
             <div class="review-meta">
-              <h3>Eduarda</h3>
+              <div class="review-header">
+                <h3>Eduarda</h3>
+                <p class="review-stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+              </div>
               <p>March 4, 2026</p>
             </div>
             <p>
@@ -163,7 +169,10 @@
           </article>
           <article class="info-card review-card">
             <div class="review-meta">
-              <h3>Mohammad</h3>
+              <div class="review-header">
+                <h3>Mohammad</h3>
+                <p class="review-stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+              </div>
               <p>March 2, 2026</p>
             </div>
             <p>
@@ -186,25 +195,25 @@
             <h3>Contact Information</h3>
             <p>Book a trial lesson and share your goals, interests, and learning style.</p>
             <ul class="contact-list">
-              <li><strong>Email:</strong> <a href="mailto:sarah.bennett@example.com">sarah.bennett@example.com</a></li>
+              <li><strong>Email:</strong> <a href="mailto:kiana2354@gmail.com">kiana2354@gmail.com</a></li>
               <li><strong>Phone:</strong> <a href="tel:+15551234567">+1 (555) 123-4567</a></li>
               <li><strong>Based in:</strong> Canada</li>
               <li><strong>Format:</strong> Online English tutoring</li>
             </ul>
           </div>
 
-          <form class="contact-form" id="contact-form">
+          <form class="contact-form" id="contact-form" data-recipient="kiana2354@gmail.com">
             <label>
               Name
-              <input type="text" name="name" placeholder="Your name">
+              <input type="text" name="name" placeholder="Your name" required>
             </label>
             <label>
               Email
-              <input type="email" name="email" placeholder="Your email">
+              <input type="email" name="email" placeholder="Your email" required>
             </label>
             <label>
               Message
-              <textarea name="message" rows="5" placeholder="Tell me about your learning goals"></textarea>
+              <textarea name="message" rows="5" placeholder="Tell me about your learning goals" required></textarea>
             </label>
             <button class="button button-primary" type="submit">Send Message</button>
             <p class="form-note" id="form-note" aria-live="polite"></p>

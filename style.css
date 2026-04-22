@@ -307,6 +307,20 @@ h3 {
   line-height: 1.5;
 }
 
+.review-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.review-stars {
+  margin: 0;
+  color: var(--primary);
+  letter-spacing: 0.08em;
+  font-size: 1rem;
+}
+
 .media-section {
   background: linear-gradient(180deg, rgba(255, 120, 172, 0.06), rgba(168, 213, 227, 0.16));
 }
